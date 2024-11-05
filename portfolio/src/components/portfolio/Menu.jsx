@@ -23,6 +23,20 @@ const Menu=[
         title: "Expense Tracker",
         category: "FrontEnd",
         link: "https://exp-track-react.netlify.app/"
+    },
+    {
+        id: 4,
+        image: Work3,
+        title: "Book store app",
+        category: "FullStack",
+        link: "https://github.com/Abraham015/Book_social_app"
+    },
+    {
+        id: 5,
+        image: Work3,
+        title: "Microservices architecture",
+        category: "BackEnd",
+        link: "https://github.com/Abraham015/Microservices_architecture"
     }
 ]
 

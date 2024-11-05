@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Ab from "../../assets/Foto1.jpg";
 import AboutBox from "./AboutBox";
-import CV from "../../assets/CV.pdf"
+import CV from "../../assets/CV.pdf";
 
 const About = () => {
   return (
@@ -13,8 +13,12 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">
-              I'm Abraham Hernadez, I'm from Mexico City, I have experience
-              using Java and .Net. I love learning new skills such as languages.
+              I'm a junior backend developer with experience in Java, having a
+              solid understanding of backend application development and a
+              growing comprehension of software engineering best practices. I
+              also have experience in frontend development using React, which
+              enables me to approach projects holistically and contribute to
+              both aspects of web development.
             </p>
             <a download="" href={CV} className="btn">
               Download CV
@@ -54,8 +58,8 @@ const About = () => {
           </div>
         </div>
       </div>
-      
-      <AboutBox/>
+
+      <AboutBox />
     </section>
   );
 };
